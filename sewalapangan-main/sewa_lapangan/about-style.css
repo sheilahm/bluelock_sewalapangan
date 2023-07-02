@@ -1,0 +1,39 @@
+/*.tentang{
+	padding-bottom: 200px;
+	padding: 5px;
+	margin-top: 0;
+	margin-left: 80px;
+	height: 570px;
+	width: 65%;
+	border-radius: 10px;
+	background-color: white;
+	align-items: center;
+}
+.tentang img{
+	width: 600px;
+	border-radius: 10px;
+	height: 350px;
+}
+.tentang p{
+	margin: 0;
+	padding: 0;
+}*/
+
+.tentang{
+	background-color: white;
+	width: 65%;
+	height: 570px;
+	align-items: center;
+	margin-left: 100px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.tentang img{
+	width: 100%;
+	height: 350px;
+	border-radius: 10px;
+}
+.tentang p{
+	margin: 0;
+	padding: 0;
+}

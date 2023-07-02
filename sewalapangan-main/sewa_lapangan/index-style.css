@@ -1,0 +1,97 @@
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+}
+body{
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-family: 'Nunito', sans-serif;
+}
+nav {
+	height: 70px;
+  width: 75%;
+  margin-left: 20%;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5% 5px 20px;
+  background-color: white;
+  opacity: 0.8;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.logo {
+  color: rgb(180, 180, 180);
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: rgb(180, 180, 180);
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: red;
+  transition: 0.4s;
+}
+.row{
+	display: flex;
+}
+.kolom{
+	float: left;
+}
+.kolom.sidebar{
+	width: 20%;
+	background-color: blue;
+	position: fixed;
+	height: 100%;
+	background-image: linear-gradient(
+      rgba(0, 183, 255, 0.7),
+      rgba(0, 255, 223, 0.4)
+    ),
+    url(bw.jpg);
+}
+.kolom.sidebar a{
+	color: white;
+	display: block;
+	margin-left: 30px;
+	text-decoration: none;
+	padding: 15px;
+}
+.kolom.sidebar h2{
+	padding-top: 5px; 
+	color: rgb(240, 240, 240);
+  text-align: center;
+  border-color: white;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  height: 53px;
+}
+.kolom.sidebar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.kolom.sidebar a:hover {
+  width: 150px;
+  background-image: linear-gradient(rgba(25, 39, 0, 0.1), rgba(0, 0, 0, 0.1));
+  border-radius: 8px;
+  margin-left: 20px;
+
+  color: white;
+}
+.kolom.konten{
+	margin-left: 30%;
+	margin-right: 10%;
+	width: 60%;
+	/*background-color: green;*/
+	margin-top: 6%;
+	height: 100%;
+	position: fixed;
+}

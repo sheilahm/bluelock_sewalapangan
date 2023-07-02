@@ -1,0 +1,52 @@
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+}
+.container{
+	margin-top: 150px;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+}
+
+.container div{
+	height: 300px;
+	width: 240px;
+	margin-top: 10px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 20px;
+	text-align: center;
+}
+
+div img{
+	margin-top: 10px;
+	max-width: 200px;
+	height: auto;
+}
+
+div p{
+	font-size: 25px;
+}
+
+div a{
+	text-decoration: none;
+	color: rgb(180, 180, 180);
+}
+div a:hover{
+	font-weight: bolder;
+}
+.container div:hover{
+	background-image: linear-gradient(rgb(0, 255, 215), rgb(0, 198, 255));
+	transition: 0.5s;
+}
+
+div img:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: 1s ease;
+}
+
+.card3 p{
+	margin-top: 53px;
+}
